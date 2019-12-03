@@ -1,0 +1,155 @@
+/* Eric Meyer's Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/* ol, ul {
+	list-style: none;
+} */
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End Eric Meyer's Reset */
+
+/* Modular Classes */
+
+.mod-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mod-flex {
+    display: flex;
+}
+
+/* End Modular Classes */
+
+
+/* Typography */
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+/* Custom CSS */
+
+
+/* Header */
+.header {
+    background: #F96115;
+    padding: 24px 0;
+}
+
+nav a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+/* Main */
+.main {
+    background: #D4CEA7;
+}
+/* List Section */
+.list-section {
+    justify-content: space-between;
+}
+
+.column1-3 {
+    background: #005979;
+    width: 30%;
+    height: 500px;
+    margin: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, .5);
+    padding-top: 30px;
+}
+
+ol, ul {
+    padding-left: 50px;
+    color: white;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.removeBullets {
+    list-style: none;
+}
+
+.removeBullets li {
+    padding-bottom: 25px;
+}
+
+i {
+    color: black;
+    padding-right: 12px;
+}
+/* End List Section */
+
+/* Heading Para Section */
+.article {
+    padding-top: 20px;
+}
+
+.article h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.article p {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    line-height: 1.4;
+    color: #68644F;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* End Heading Para Section */
+
+.footer {
+    margin-top: 52px;
+    background: #252C22;
+    padding: 24px 0;
+}
